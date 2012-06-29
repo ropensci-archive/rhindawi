@@ -19,4 +19,4 @@ This package will access 1) Hindawi Journals metadata, and 2) the full corpus.  
 
 You do not need an API key, or other authentication.
 
-`rhindwai` is part of the rOpenSci project, visit http://ropensci.org to learn more.
+`rhindawi` is part of the rOpenSci project, visit http://ropensci.org to learn more.

@@ -1,14 +1,14 @@
-Package: rhindwai
+Package: rhindawi
 Type: Package
-Title: Interface to Hindwai Publishing OAI-PMH methods
+Title: Interface to Hindawi Publishing OAI-PMH methods
 Version: 0.0.1
 License: C00
-Date: 2012-06-27
+Date: 2012-06-29
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 Description: A programmatic interface to the
     Web Service methods provided by Hindwai.
-URL: https://github.com/ropensci/rhindwai
+URL: https://github.com/ropensci/rhindawi
 Collate:
     'getrecord.r'
     'identify.r'
