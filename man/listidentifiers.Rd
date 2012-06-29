@@ -39,4 +39,7 @@ temp[[1]]
 listidentifiers(set = 'aaa:2007')
 }
 }
+\author{
+  Scott Chamberlain \email{myrmecocystus@gmail.com}
+}
 

@@ -21,4 +21,7 @@ out$datestamp # get $identifier, $datestamp, $setSpec, or $metadata
 oaih_transform(out$metadata) # transform only metadata to a list
 }
 }
+\author{
+  Scott Chamberlain \email{myrmecocystus@gmail.com}
+}
 

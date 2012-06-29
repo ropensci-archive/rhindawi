@@ -20,4 +20,7 @@ sets <- listsets()
 head(sets)
 }
 }
+\author{
+  Scott Chamberlain \email{myrmecocystus@gmail.com}
+}
 

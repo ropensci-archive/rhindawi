@@ -18,4 +18,7 @@
 identify()
 }
 }
+\author{
+  Scott Chamberlain \email{myrmecocystus@gmail.com}
+}
 

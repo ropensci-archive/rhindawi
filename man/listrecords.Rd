@@ -35,4 +35,7 @@
 listrecords(set = 'AMET:2012', transform=F)
 }
 }
+\author{
+  Scott Chamberlain \email{myrmecocystus@gmail.com}
+}
 
