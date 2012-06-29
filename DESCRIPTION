@@ -1,6 +1,6 @@
 Package: rhindawi
 Type: Package
-Title: Interface to Hindawi Publishing OAI-PMH methods
+Title: R interface to the Hindawi Journals metadata and corpus
 Version: 0.0.1
 License: C00
 Date: 2012-06-29
