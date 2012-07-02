@@ -15,7 +15,7 @@
 #' @author Scott Chamberlain \email{myrmecocystus@@gmail.com}
 #' @examples \dontrun{
 #' temp <- listidentifiers()
-#' temp[[1]]
+#' temp[[1]] # 
 #' listidentifiers(set = 'aaa:2007')
 #' }
 #' @export
