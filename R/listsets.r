@@ -8,8 +8,11 @@
 #' head(sets)
 #' }
 #' @export
-listsets <- function(transform = TRUE,
-  url = "http://www.hindawi.com/oai-pmh/oai.aspx") 
+listsets <- function(url = "http://www.hindawi.com/oai-pmh/oai.aspx") 
 { 
-	oaih_list_sets(url, transform = transform)
+	out <- oaih_list_sets(url, transform = FALSE)
+	data.frame(
+		setSpec = sapply(xpathApply(out, "//setSpec"), xmlValue),
+		setName = sapply(xpathApply(out, "//setName"), xmlValue)
+	)
 }
