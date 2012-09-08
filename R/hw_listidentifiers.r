@@ -11,15 +11,15 @@
 #'     returned in. 
 #' @param token a token previously provided by the server to resume a request
 #'     where it last left off.
-#' @inheritParams listmetadataformats
+#' @inheritParams hw_listmetadataformats
 #' @author Scott Chamberlain \email{myrmecocystus@@gmail.com}
 #' @examples \dontrun{
-#' temp <- listidentifiers()
+#' temp <- hw_listidentifiers()
 #' temp[[1]] # 
-#' listidentifiers(set = 'aaa:2007')
+#' hw_listidentifiers(set = 'aaa:2007')
 #' }
 #' @export
-listidentifiers <- function(from = NULL, until = NULL, set = NULL, 
+hw_listidentifiers <- function(from = NULL, until = NULL, set = NULL, 
   prefix = 'oai_dc', token = NULL, transform = TRUE,
   url = "http://www.hindawi.com/oai-pmh/oai.aspx")
 {

@@ -1,14 +1,14 @@
 #' Retrieve the set structure of Hindawi Publishing Corporation repository.
 #'
 #' @import OAIHarvester
-#' @inheritParams listmetadataformats
+#' @inheritParams hw_listmetadataformats
 #' @author Scott Chamberlain \email{myrmecocystus@@gmail.com}
 #' @examples \dontrun{
-#' sets <- listsets()
+#' sets <- hw_listsets()
 #' head(sets)
 #' }
 #' @export
-listsets <- function(url = "http://www.hindawi.com/oai-pmh/oai.aspx") 
+hw_listsets <- function(url = "http://www.hindawi.com/oai-pmh/oai.aspx") 
 { 
 	out <- oaih_list_sets(url, transform = FALSE)
 	data.frame(

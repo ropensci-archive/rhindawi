@@ -5,10 +5,10 @@
 #' @param url the base url for Hindwai (leave to default)
 #' @author Scott Chamberlain \email{myrmecocystus@@gmail.com}
 #' @examples \dontrun{
-#' listmetadataformats()
+#' hw_listmetadataformats()
 #' }
 #' @export
-listmetadataformats <- function(transform = TRUE,
+hw_listmetadataformats <- function(transform = TRUE,
   url = "http://www.hindawi.com/oai-pmh/oai.aspx") 
 {
 	oaih_list_metadata_formats(url, transform = transform)
