@@ -1,6 +1,13 @@
 rhindawi
 ========
 
+### __No further development__
+
+See packages [fulltext](https://github.com/ropensci/fulltext) for full text data and [rmetadata](https://github.com/ropensci/rmetadata) for scholarly metadata
+
+
+### Installation
+
 Install using install_github within [Hadley's](https://github.com/hadley/devtools) devtools package.
 
 ```R
@@ -10,7 +17,7 @@ install_github("rhindawi", "ropensci")
 require(rhindawi)
 ```
 
-This package will access 1) Hindawi Journals metadata, and 2) the full corpus.  The full corpus is apparently updated daily. There is no API for the full text, but functions in this package (`getcorpus()`, `unzipcorpus()`, `hindawi_search()`) allow easy download and searching of the full corpus. 
+This package will access 1) Hindawi Journals metadata, and 2) the full corpus.  The full corpus is apparently updated daily. There is no API for the full text, but functions in this package (`getcorpus()`, `unzipcorpus()`, `hindawi_search()`) allow easy download and searching of the full corpus.
 
 
 + [Hindawi Journals OAI-PMH metadata documentation](http://www.hindawi.com/oai-pmh/)
