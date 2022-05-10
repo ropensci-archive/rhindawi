@@ -1,9 +1,5 @@
+# rhindawi
 
-[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/latest/unsupported.svg)](http://www.repostatus.org/#unsupported)
+[![Project Status: Abandoned](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
-rhindawi
-========
-
-### __No further development__
-
-See packages [fulltext](https://github.com/ropensci/fulltext) for full text data and [the README of rmetadata](https://github.com/ropensci/rmetadata) for a list of packages accessing scholarly metadata
+This repository has been archived. The former README is now in [README-NOT.md](README-NOT.md).
